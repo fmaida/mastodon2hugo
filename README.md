@@ -33,6 +33,27 @@ Usage examples
 1. `python mastodon2hugo.py @johndoe@mastodon.online`
 2. `python mastodon2hugo.py @gohugoio@fosstodon.org`
 
+For example, if your Hugo project is named `mywebsite`, you should have 
+the `mastodon2hugo.py` script inside the root directory like this:
+
+```sh
+cd mywebsite
+ls
+
+drwxr-xr-x  3 cesco  staff    96  1 Nov 21:04 archetypes/
+drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 assets/
+drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 content/
+drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 data/
+-rw-r--r--  1 cesco  staff    83  1 Nov 21:04 hugo.toml
+drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 i18n/
+drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 layouts/
+-rw-r--r--  1 cesco  staff  2730  1 Nov 21:05 mastodon2hugo.py
+drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 static/
+drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 themes/
+
+python mastodon2hugo.py @gohugoio@fosstodon.org 
+```
+
 Credits
 -------
 I couldn't have created this script without the helpful article written by [Maarten Balliauw](https://blog.maartenballiauw.be) on his personal blog, which you can find at <https://blog.maartenballiauw.be/post/2022/11/05/mastodon-own-donain-without-hosting-server.html>
