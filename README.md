@@ -4,7 +4,15 @@
 
 Why you should care?
 --------------------
-(TODO)
+If you have an account on Mastodon and a website built with Hugo, you can make it possible for people searching for you on Mastodon to find you through your website domain.
+
+For example:
+
+Imagine your website is hosted at `https://www.mywebsite.com`, and your username is `johndoe@mastodon.world`.
+
+After running this script, recompiling your site with Hugo, and deploying it, people will also be able to search and find you on Mastodon by using `@johndoe@mywebsite.com`.
+
+Actually any name inserted before your domain name will work, as if it is a wildcard. Any `@<place your name here>@mywebsite.com` will work. If you need to have different names with different destinations, you'll have to write some client-based code in order to redirect Mastodon properly.
 
 Usage
 -----
