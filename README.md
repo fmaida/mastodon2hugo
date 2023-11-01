@@ -2,6 +2,8 @@
 
 **Enables searchability for your Hugo website on Mastodon. Now, anyone can discover you on Mastodon by simply entering your domain.**
 
+**Requires Python 3.7 or higher**
+
 Why you should care?
 --------------------
 If you have an account on Mastodon and a website built with Hugo, you can make it possible for people searching for you on Mastodon to find you through your website domain.
