@@ -17,6 +17,7 @@
 import os
 import sys
 from urllib.request import urlretrieve
+from urllib.error import URLError
 
 
 # Let's try to fetch the Mastodon account 
@@ -26,7 +27,8 @@ if len(sys.argv) > 1:
 else:
     # The user didn't provide a Mastodon account
     # Let's ask them for it
-    account = input("Enter your Mastodon account [@name@domain.com]: ")
+    print("Please Enter your Mastodon account")
+    account = input("[Example: @name@domain.com]: ")
 
 # Now let's split the mastodon account into
 # its username and domain
@@ -74,8 +76,12 @@ if not os.path.exists(well_known_dir):
 
 # Let's download the Mastodon account's webfinger file
 # and place it in the static/.well-known directory
-print(f"Downloading from '{url}'")
-urlretrieve(url, webfinger_file)
+try:
+    urlretrieve(url, webfinger_file)
+except URLError:
+    # Uh Oh, something went wrong
+    print(f"Couldn't connect to '{url}'")
+    quit(-1)
 
 # Everything is done
 print("Done! Have a nice day!")
