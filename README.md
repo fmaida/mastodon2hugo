@@ -33,6 +33,10 @@ Usage examples
 1. `python mastodon2hugo.py @johndoe@mastodon.online`
 2. `python mastodon2hugo.py @gohugoio@fosstodon.org`
 
+Credits
+-------
+I couldn't have created this script without the helpful article by Maarten Balliauw on his personal blog, which you can find at <https://blog.maartenballiauw.be/post/2022/11/05/mastodon-own-donain-without-hosting-server.html>
+
 Disclaimer
 ----------
 By using this script, you acknowledge and agree to the following terms and conditions. Please read this disclaimer carefully before proceeding:
