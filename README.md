@@ -35,7 +35,7 @@ Usage examples
 
 Credits
 -------
-I couldn't have created this script without the helpful article by Maarten Balliauw on his personal blog, which you can find at <https://blog.maartenballiauw.be/post/2022/11/05/mastodon-own-donain-without-hosting-server.html>
+I couldn't have created this script without the helpful article written by [Maarten Balliauw](https://blog.maartenballiauw.be) on his personal blog, which you can find at <https://blog.maartenballiauw.be/post/2022/11/05/mastodon-own-donain-without-hosting-server.html>
 
 Disclaimer
 ----------
