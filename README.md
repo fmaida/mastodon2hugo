@@ -2,12 +2,18 @@
 
 **Enables searchability for your Hugo website on Mastodon. Now, anyone can discover you on Mastodon by simply entering your domain.**
 
+Why you should care?
+--------------------
+<TODO>
+
 Usage
 -----
 Download the python script `mastodon2hugo.py` in the root directory
 of your Hugo project, then enter this command from a terminal:
 
-`python mastodon2hugo.py <your mastodon account>`
+```sh
+python mastodon2hugo.py <your mastodon account>
+```
 
 If the script completes successfully, you should find a file 
 called `webfinger` inside the directory `static/.well-known/`. 
