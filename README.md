@@ -38,7 +38,7 @@ the `mastodon2hugo.py` script inside the root directory like this:
 
 ```sh
 $ cd mywebsite
-$ ls
+$ ls -l
 
 drwxr-xr-x  3 cesco  staff    96  1 Nov 21:04 archetypes/
 drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 assets/
