@@ -4,12 +4,20 @@
 
 Usage
 -----
+Download the python script `mastodon2hugo.py` in the root directory
+of your Hugo project, then enter this command from a terminal:
+
 `python mastodon2hugo.py <your mastodon account>`
+
+If the script completes successfully, you should find a file 
+called `webfinger` inside the directory `static/.well-known/`. 
+That file will contain a JSON object with the proper configuration 
+for your website.
 
 Usage examples
 --------------
 1. `python mastodon2hugo.py @johndoe@mastodon.online`
-2. `python mastodon2hugo.py @bep@mastodon.world`
+2. `python mastodon2hugo.py @gohugoio@fosstodon.org`
 
 Disclaimer
 ----------
