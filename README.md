@@ -37,8 +37,8 @@ For example, if your Hugo project is named `mywebsite`, you should have
 the `mastodon2hugo.py` script inside the root directory like this:
 
 ```sh
-cd mywebsite
-ls
+$ cd mywebsite
+$ ls
 
 drwxr-xr-x  3 cesco  staff    96  1 Nov 21:04 archetypes/
 drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 assets/
@@ -51,7 +51,7 @@ drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 layouts/
 drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 static/
 drwxr-xr-x  2 cesco  staff    64  1 Nov 21:04 themes/
 
-python mastodon2hugo.py @gohugoio@fosstodon.org 
+$ python mastodon2hugo.py @gohugoio@fosstodon.org 
 ```
 
 Credits
