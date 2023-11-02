@@ -8,7 +8,7 @@ Why you should care?
 --------------------
 If you have an account on Mastodon and a website built with Hugo, you can make it possible for people searching for you on Mastodon to find you through your website domain.
 
-For example:
+#### For example:
 
 Imagine your website is hosted at `https://www.doe.com`, and your username is `johndoe543210@mastodon.world`.
 
