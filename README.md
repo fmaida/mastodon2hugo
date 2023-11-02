@@ -16,6 +16,12 @@ After running this script, recompiling your site with Hugo, and deploying it, pe
 
 Actually any name inserted before your domain name will work, as if it is a *catch-all* address. This means that any `@<place your name here>@mywebsite.com` will work. If you need to have different names with different destinations, you'll have to write some client-based code in order to redirect Mastodon properly.
 
+How does this work exactly?
+---------------------------
+Every time someone searches for a user on Mastodon (for example: `@john@doe.com`), the Mastodon server tries to contact the domain (`doe.com`) to ask about user credentials, by accessing a page under `https://doe.com/.well-known/webfinger?resource=acct:john@doe.com` using a *GET* method.
+  
+All my script does is copy these credentials from the Mastodon server that is hosting your account, and insert them into your website or blog created with Hugo in order to mimick the same directory structure.
+
 Usage
 -----
 Download the python script `mastodon2hugo.py` in the root directory
