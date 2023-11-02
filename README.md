@@ -36,6 +36,8 @@ called `webfinger` inside the directory `static/.well-known/`.
 That file will contain a JSON object with the proper configuration 
 for your website.
 
+**In order to make your changes effective, after running my script please remember to execute Hugo to build your website again and deploy.**
+
 Usage examples
 --------------
 1. `python mastodon2hugo.py @johndoe@mastodon.online`
