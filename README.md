@@ -10,11 +10,11 @@ If you have an account on Mastodon and a website built with Hugo, you can make i
 
 For example:
 
-Imagine your website is hosted at `https://www.mywebsite.com`, and your username is `johndoe@mastodon.world`.
+Imagine your website is hosted at `https://www.doe.com`, and your username is `johndoe543210@mastodon.world`.
 
-After running this script, recompiling your site with Hugo, and deploying it, people will also be able to search and find you on Mastodon by using `@johndoe@mywebsite.com`.
+After running this script, recompiling your site with Hugo, and deploying it, people will also be able to search and find you on Mastodon by using `@john@doe.com`.
 
-Actually any name inserted before your domain name will work, as if it is a *catch-all* address. This means that any `@<place your name here>@mywebsite.com` will work. If you need to have different names with different destinations, you'll have to write some client-based code in order to redirect Mastodon properly.
+Actually any name inserted before your domain name will work, as if it is a *catch-all* address. This means that any `@<place your name here>@doe.com` will work as well. If you need to have different names with different destinations, you'll have to write some client-based code in order to redirect Mastodon properly.
 
 How does this work exactly?
 ---------------------------
