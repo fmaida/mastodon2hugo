@@ -25,18 +25,28 @@ All my script does is copy these credentials from the Mastodon server that is ho
 Usage
 -----
 Download the python script `mastodon2hugo.py` in the root directory
-of your Hugo project, then enter this command from a terminal:
+of your Hugo project; for example, if `curl` is installed on the OS of 
+your computer, to download the script you could enter this command on 
+the terminal:
+
+```sh
+curl https://raw.githubusercontent.com/fmaida/mastodon2hugo/main/mastodon2hugo.py > mastodon2hugo.py
+```
+
+Then execute the script with the command:
 
 ```sh
 python mastodon2hugo.py <your mastodon account>
 ```
+
+Replace `<your mastodon account>` with your actual account (For example: `@johndoe@mastodon.online`)
 
 If the script completes successfully, you should find a file 
 called `webfinger` inside the directory `static/.well-known/`. 
 That file will contain a JSON object with the proper configuration 
 for your website.
 
-**In order to make your changes effective, after running my script please remember to execute Hugo to build your website again and deploy.**
+**Important:** After running my script, in order to make your changes effective, please remember to execute Hugo to build your website again and deploy.
 
 Usage examples
 --------------
