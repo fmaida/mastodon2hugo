@@ -58,7 +58,9 @@ the `mastodon2hugo.py` script inside the root directory like this:
 
 ```sh
 $ cd mywebsite
-$ curl https://raw.githubusercontent.com/fmaida/mastodon2hugo/main/mastodon2hugo.py > mastodon2hugo.py
+$ curl \
+    https://raw.githubusercontent.com/fmaida/mastodon2hugo/main/mastodon2hugo.py \
+    > mastodon2hugo.py
 $ ls -l
 
 drwxr-xr-x  3 cesco  staff    96  1 Nov 21:04 archetypes/
